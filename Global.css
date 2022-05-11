@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+* {
+    --columbia-blue: #bbdef0ff;
+    --light-sea-green: #00a6a6ff;
+    --yellow-munsell: #efca08ff;
+    --orange-web: #f49f0aff;
+    --tangerine: #f08700ff;
+} 
+
+
+
+body {
+    font-family: c;
+    background-color: var(--tangerine);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+p {
+    color: var(--light-sea-green);
+    font-family: 'Roboto Flex';
+}
+h1 {
+    color: var(--light-sea-green);
+    font-family: 'Roboto Flex';
+    font-size: 1.5rem;
+}
+h2 {
+    color: var(--light-sea-green);
+    font-family: 'Roboto Flex';
+    font-size: 1.5rem;
+}
+img {
+    width: 100%;
+}
+@media (min-width: 600px) {
+    body {
+        flex-direction: row;
+    }
+    
+    #splash-image {
+        width: 300px;
+        height: 200px;
+    }
+   
+    .tummypic {
+        width: 300px;
+        border-radius: 50%;  
+    }
+    .tummypic2 {
+        width: 300px;
+        border-radius: 50%;
+    }
+}
